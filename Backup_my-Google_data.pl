@@ -169,7 +169,11 @@ Backup_my-Google_data - make local copies of your contacts, caledner and reader 
 
 =head1 USAGE
 
-    Backup_my-Google_data  [options] 
+    Backup_my-Google_data  -d -c -r -a
+    	-d[irectory] specify destination directory
+    	-c[alendar] download calendar as ics file
+    	-r[eader] download reader subscrptions in XML
+    	-a[ddressbook] download contacts in YAML format
     
 ..Sure, Google "do no evil", but I don't trust them to hold my data without me having a backup.
 
