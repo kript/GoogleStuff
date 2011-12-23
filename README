@@ -1,0 +1,31 @@
+Usage:
+        Backup_my-Google_data  [options]
+
+    ..Sure, Google "do no evil", but I don't trust them to hold my data
+    without me having a backup.
+
+    script to back up;
+
+     * Google Contacts/Addressbook
+     * Google Calender
+     * Google Reader subscriptions
+
+    You can backup individual members of these via the command line options.
+    If none are provided (with the exception of -d in the future), all of
+    them will be run.
+
+    *NOTE* unless you provide -d the data files will be created in the
+    current working directory.
+
+    <b> Note</b> The script expect to find a file called ~/.google_login and
+    will fail if it can't. It's a YAML file and follows the following
+    format;
+
+     ---
+     username: my_google_username
+     password: my_google_password
+
+    Thanks to David Precious (bigpresh), who put his version on Github
+    (https://github.com/bigpresh/misc-scripts/tree/master/backup-google-stuf
+    f).
+
