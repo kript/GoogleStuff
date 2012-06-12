@@ -26,7 +26,7 @@ Usage:
     format;
 
      ---
-     username: my_google_username
+     username: my_google_email
      password: my_google_password
 
     Thanks to David Precious (bigpresh), who put his version on Github
