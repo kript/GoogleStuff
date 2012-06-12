@@ -86,7 +86,7 @@ sub Backup_Contacts
 	my $fh;
 	
 	my $wc       = WWW::Contact->new();
-	my $username = $account->{username} . '@googlemail.com';
+	my $username = $account->{username};
 	my @contacts = $wc->get_contacts($username, $account->{password});
 	
 	my $errstr   = $wc->errstr;
